@@ -66,7 +66,8 @@ public class PizzaMenu
 		contentPane = (JPanel) frame.getContentPane();
 		contentPane.setLayout(new BorderLayout(6, 6));
 		
-	    makeWestRegion();
+	    makeNorthRegion();
+		makeWestRegion();
 	    makeCenterRegion();
 	    makeEastRegion();
 		}
@@ -119,7 +120,12 @@ public class PizzaMenu
 
 		return menu;
 		}
-
+	private void makeNorthRegion()
+		{
+		JLabel imgLabel = new JLabel(new ImageIcon("L08-06.jpg"), JLabel.CENTER);
+		contentPane.add(imgLabel, BorderLayout.NORTH);
+		}
+	
 	private void makeWestRegion()
 		{
 		// set up Crust options with radio buttons in WEST
