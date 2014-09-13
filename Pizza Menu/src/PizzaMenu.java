@@ -65,6 +65,10 @@ public class PizzaMenu
 		{
 		contentPane = (JPanel) frame.getContentPane();
 		contentPane.setLayout(new BorderLayout(6, 6));
+		
+	    makeWestRegion();
+	    makeCenterRegion();
+	    makeEastRegion();
 		}
 
 	private JMenu makeFileMenu()
