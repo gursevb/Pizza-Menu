@@ -10,6 +10,7 @@ public class PizzaMenu
 	private JRadioButton handCrustButton;
 	private JRadioButton deepCrustButton;
 	private ButtonGroup crustButtonGroup;
+	
 	// check boxes
 	private JCheckBox pepperoniBox;
 	private JCheckBox sausageBox;
